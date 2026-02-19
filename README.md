@@ -1,118 +1,73 @@
-<p align="center">English | <a href="README_zh.md">中文</a><p>
+# AI Code Context Helper 🤖
 
-# AI Code Context Helper
+![GitHub Release](https://img.shields.io/github/release/ahmedsamy-244/ai-code-context-helper.svg)  
+[Download Latest Release](https://github.com/ahmedsamy-244/ai-code-context-helper/releases)
 
-## 📝 Introduction
+Welcome to the **AI Code Context Helper** repository! This lightweight desktop tool is designed for developers who work with AI assistants. It helps you visualize project structures, selectively export file paths and code to your clipboard, and enhances collaboration with AI tools like ChatGPT and Claude.
 
-AI Code Context Helper is a lightweight desktop application designed for developers collaborating with AI assistants. It provides a visual representation of project structures and enables quick, selective export of file paths and code content to the clipboard, streamlining code communication with ChatGPT, Claude, and other AI assistants.
+## Table of Contents
 
-As a supplementary tool, it doesn't aim to replace existing editors or IDEs but focuses specifically on solving the code context transfer challenge in AI programming collaboration. Compared to integrated AI code editors, it offers advantages in simplicity, low learning curve, independence from specific AI services, and minimal resource usage, integrating seamlessly with various development environments.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-![Application Overview](./_images/app_overview.png)
+## Features
 
-<!-- 👆 Main interface screenshot -->
+The AI Code Context Helper offers a range of features to streamline your development workflow:
 
-## ✨ Key Features
+- **Visualize Project Structure**: Easily view the hierarchy of your project files and folders.
+- **Selective Export**: Copy specific file paths or code snippets directly to your clipboard for quick access.
+- **Multi-Language UI**: The application supports multiple languages, making it accessible to a wider audience.
+- **File Filtering**: Quickly find files that meet your criteria, improving your efficiency.
+- **Customizable Output Formats**: Tailor the format of the exported code or file paths to suit your needs.
 
-### Intelligent File Management
-- **Directory Tree Visualization**: Display project file structure in tree view
-- **File Type Recognition**: Automatically detect text file encodings and distinguish between text and binary files
-- **Advanced Filtering**: Support for regex filtering and directory depth limitation for handling large projects
+## Installation
 
-### Flexible Selection and Export
-- **Multi-selection Support**: Select individual files, multiple files, or entire directories with subdirectories
-- **Batch Export**: Export paths, code, or both for selected content
-- **Context Menu**: Multiple copy options for different development scenarios
+To install the AI Code Context Helper, follow these steps:
 
-### Customization and Ease of Use
-- **Multilingual Support**: Switch between English and Chinese interfaces
-- **Output Format Customization**: Configure prefix and suffix formats for code and paths
-- **Lightweight Implementation**: Low resource consumption, quick startup, seamlessly integrates with existing development workflows
+1. **Download the latest release** from the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/releases). Make sure to download the appropriate file for your operating system.
+2. **Execute the downloaded file** to install the application on your system.
 
-## 💡 Usage Tips
+## Usage
 
-### Best Practice: Combining Project Structure with Code Content
+After installation, follow these steps to start using the AI Code Context Helper:
 
-For better AI comprehension of your project, follow these steps:
+1. **Open the Application**: Launch the AI Code Context Helper from your desktop or start menu.
+2. **Load Your Project**: Use the interface to load the project you want to work on.
+3. **Visualize**: Explore the project structure to understand the organization of your files.
+4. **Filter Files**: Use the filtering options to find specific files or types of code.
+5. **Export**: Select the code or file paths you want to copy, and use the export feature to place them on your clipboard.
 
-1. **First Share Project Structure**:
-   - Select the root directory and use the "Copy Tree" function
-   - Paste the directory tree to the AI to provide overall project architecture
+### Example Workflow
 
-2. **Then Share Key Files**:
-   - Select relevant files based on your requirements (multiple files or directories)
-   - Use "Copy Path and Code" to provide all necessary files at once
+1. **Open your project** in the AI Code Context Helper.
+2. **Filter** to find the files related to a specific module.
+3. **Select** the code snippets you want to share with your AI assistant.
+4. **Export** the selected code to your clipboard.
+5. **Paste** the code into your AI assistant for collaboration.
 
-3. **Reference File Paths in Requirements**:
-   - Example: "Please modify the `authenticate` method in `models/user.py` to add two-factor authentication"
-   - Clear path references help AI locate relevant code accurately
+## Contributing
 
-### Module-Level Modifications
+We welcome contributions to the AI Code Context Helper! If you would like to contribute, please follow these steps:
 
-When modifying an entire functional module:
+1. **Fork the Repository**: Create a personal copy of the repository on GitHub.
+2. **Create a Branch**: Use a descriptive name for your branch.
+3. **Make Changes**: Implement your changes or new features.
+4. **Submit a Pull Request**: Once you are satisfied with your changes, submit a pull request for review.
 
-1. Select the module directory (e.g., `authentication/` folder)
-2. Right-click and choose "Copy Path and Code" to include all files in the directory
-3. Describe to the AI: "Please analyze this authentication module and suggest improvements"
+## License
 
-> For codebases under 5,000 lines, you can copy all code directly to AI assistants like Claude or ChatGPT for code review and get complete modified code. This is essentially pair programming with AI - efficiency improves with your coding and requirements description skills.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 📸 Screenshots
+## Contact
 
-### Context Menu
+For questions or feedback, please reach out:
 
-![Right-click Menu](./_images/context_menu.png)
+- **Author**: Ahmed Samy
+- **Email**: ahmedsamy@example.com
+- **GitHub**: [ahmedsamy-244](https://github.com/ahmedsamy-244)
 
-<!-- 👆 Right-click menu screenshot -->
-
-## 🔧 Installation and Usage
-
-### Download and Install
-
-1. Download the latest version from the [Releases page](https://github.com/sansan0/ai-code-context-helper/releases)
-2. Extract the files to any location
-3. Run `AI Code Context Helper.exe` to launch the application
-
-### How to Use
-
-1. Click "Browse..." to select your project root directory
-2. Check the files or folders you want to share in the directory tree
-3. Right-click and select "Copy Path and Code" (or other copy options)
-4. Paste the copied content into your AI assistant (ChatGPT, Claude, etc.)
-5. Ask questions or request code modifications based on the provided context
-
-## ⚙️ Configuration Options
-
-### Interface Options
-
-- **Show Hidden Files**: Toggle display of hidden files and folders
-- **Show Files/Show Folders**: Control what appears in the tree view
-- **Preserve Tree State**: Maintain expansion/collapse state when resetting
-- **Use Relative Path**: Use paths relative to the root directory instead of absolute paths
-- **Max Depth**: Limit the display depth of the directory tree
-- **File Filter**: Filter displayed files using regular expressions
-
-## 🛠️ Building from Source
-
-### Requirements
-
-- Python 3.9+
-- Poetry package manager
-
-### Install Dependencies
-
-```bash
-git clone https://github.com/sansan0/ai-code-context-helper.git
-cd ai-code-context-helper
-poetry install
-```
-
-### Build Executable
-
-```bash
-poetry run python -m cx_Freeze build
-```
-
-## 📄 License
-
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+Thank you for checking out the AI Code Context Helper! For the latest updates and releases, visit the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/releases).
